@@ -1,5 +1,5 @@
-# Random Quote Generator (HTML, CSS, JS)
+# Mansfield at 90
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/alamm/pen/bExmvp](https://codepen.io/alamm/pen/bExmvp).
+This site will randomly select a quote from the writings of Harvard professor Harvey C. Mansfield.
 
-An example of a Random Quote Generator, built with HTML, CSS, and JS.  Background changes color with each new quote.
+Thanks to Alexander Lamm (@ALamm) for this [code](https://codepen.io/alamm/pen/bExmvp) to randomly select quotes and colors.
