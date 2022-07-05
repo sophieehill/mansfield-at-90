@@ -5,8 +5,7 @@ h3,
 h4,
 h5,
 h6,
-p
- { font-family: 'Raleway', sans-serif;
+p { font-family: 'Merriweather', serif;
 }
 
 h1{font-size:35px;}
@@ -14,22 +13,26 @@ h2{font-size:30px;}
 h3{font-size:25px;}
 p {font-size:16px;}
 
-p.mytitle {
-	font-size: 36px;
+.mytitle {
+	font-size: 40px;
+	font-size: 5.5vw;
 	color: white;
 	font-family: 'Merriweather', serif;
 	font-weight: 700;
 }
 
-p.mysubtitle {
-	font-size: 22px;
+.mysubtitle {
+	font-size: 18px;
+	font-size: 2.2vw;
 	color: white;
 	font-family: 'Merriweather', serif;
 	font-weight: 400;
+	margin: 30px 0px;
 }
 
 p.mymodaltext {
 	color: black;
+	font-size: 16px;
 }
 
 .modal-title {
@@ -59,7 +62,7 @@ blockquote h1, h2, h3, p{
   display: inline;
 }
 blockquote footer {
-	font-size:18px;
+	font-size:22px;
 	text-align:right;
 	color:transparent;
 }
@@ -73,7 +76,7 @@ img {
 
 .container {
 	max-height:800px;
-	margin: 10% auto auto auto;
+	margin: 8% auto auto auto;
 }
 .quotebox {
 	background:#fff;
@@ -89,10 +92,16 @@ img {
 	margin-left: 40px;
 }
 
-#quoteauthor{margin-top:20px}
+#quoteauthor{
+	margin-top:10px;
+}
+
 #quotesource{
 	margin-top:10px;
-	text-align:right;}
+	margin-bottom:0px;
+	text-align:right;
+	font-size: 18px;
+}
 
 
 .btn {margin-bottom:10px}
@@ -128,12 +137,21 @@ img {
 	background-color:#490A3D; 
 	border-color:none;} 
 
-.btn-primary {
-	width: 100px;
-	height: 40px;
-	border:none;
-	background:#490A3D;
-	}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled).active, 
+.btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+	background-color: white;
+	border-color: white;
+}
+
+
+.btn {
+	font-size: 18px;
+}
 
 @media only screen and (max-width: 768px){  
     #quotetext {font-size:25px; }

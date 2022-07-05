@@ -7,24 +7,25 @@ function inIframe() {
 }
 
 		var colors = [
+			'#007bff',
+			'#6610f2',
+			'#6f42c1',
+			'#343a40',
 			'#490A3D',
 			'#BD1550',
-			'#E97F02',
-			'#F8CA00',
-			'#8A9B0F',
-			'#69D2E7',
-			'#FA6900',
+			'#9c5402',
+			'#616e02',
+			'#0e8299',
 			'#16a085',
-			'#27ae60',
-			'#2c3e50',
-			'#f39c12',
-			'#e74c3c',
-			'#9b59b6',
-			'#FB6964',
-			'#342224',
-			'#472E32',
-			'#77B1A9',
-			'#73A857'
+			'#077334',
+			'#153759',
+			'#a61b0c',
+			'#7e21a3',
+			'#a6211c',
+			'#422024',
+			'#036e5f',
+			'#5d026b',
+			'#7a0146'
 		];
 
 var quotes = [
@@ -32,7 +33,7 @@ var quotes = [
 	["A person who makes a deal all the time is unmanly, just as economics is inherently unmanly because it always wants a trade-off.", "Harvey C. Mansfield", "Interview, Wall Street Journal (2018)"],
 	["Anybody who says something which seems to be racism will find his career shortened, his reputation gone, and he will definitely not be listened to. But it's still supposed that the racial gap that remains between Blacks and whites and Asians on the other hand is a fault of America, of our society.", "Harvey C. Mansfield", "Interview, Independent Women's Forum (2020)"],
 ["The genuine feminist you might say, those who are really biologically women, are worried that the transgender folks will come and take away the privileges or the advantages that are afforded to women. For example, women sports. So transgender male who wants to be a woman can enter a woman's sport and win easily because he's really a male.", "Harvey C. Mansfield", "Interview, Independent Women's Forum (2020)"],
-["Grade inflation got started in the late 60s and early 70s when professors raised the grades of students protesting the war in Vietnam. At that time, too, white professors, imbibing the spirit of the new policies of affirmative action, stopped giving low grades to black students, and to justify or conceal this, also stopped giving low grades to white  students. I do not know how to quantify these views even if  the figures were made available, and perhaps they are not quantifiable.", "Harvey C. Mansfield", "Op-Ed, The Crimson (2001)"],
+["Grade inflation got started in the late 60s and early 70s when professors raised the grades of students protesting the war in Vietnam. At that time, too, white professors, imbibing the spirit of the new policies of affirmative action, stopped giving low grades to black students, and to justify or conceal this, also stopped giving low grades to white  students.", "Harvey C. Mansfield", "Op-Ed, The Crimson (2001)"],
 ["When women drive cars and shoot guns, when everything conspires to equalize them with men, the fact that women remain weaker is all the more notable.", "Harvey C. Mansfield", "Manliness (2006)"],
 ["One has only to think of Jane Austen to be assured that women have a sense of humor, distributed in lesser quantities to lesser brains. Women do make jokes, only not so noticeably as men.", "Harvey C. Mansfield", "Manliness (2006)"],
 ["In the case of sexual promiscuity, the gender-neutral society by giving women an equal privilege makes it harder for them to say no, thus facilitating the aggressive fantasies of males and aggravating the sex difference in that regard.", "Harvey C. Mansfield", "Manliness (2006)"],
@@ -70,6 +71,7 @@ var quotes = [
 ["Of course, feminism did not create male irresponsibility, and it is not the only cause that Dad is so often no longer around. But it gave him a license to take off.", "Harvey C. Mansfield", "Article, The Women's Quarterly (1998)"],
 ["The sensitive male is a pathetic weakling because his sensitivity is at odds with his maleness.", "Harvey C. Mansfield", "Article, The Women's Quarterly (1998)"],
 ["Somehow men, for all  their faults, are still handy to have around. A deep voice, a manly calm, an occasional frown can have an effect that no amount of help with the housework can achieve.", "Harvey C. Mansfield", "Article, The Women's Quarterly (1998)"],
+["It is women who have deprived themselves of dads. Or, better to say, feminist women have done this.", "Harvey C. Mansfield", "Article, The Women's Quarterly (1998)"],
 ["To a woman, home is where your husband lives and where your children learn.", "Harvey C. Mansfield", "Article, Imprimis (2006)"],
 ["To be the manager of a home is the moderate and attainable ambition of most women; it is the place where they find honor and joy.", "Harvey C. Mansfield", "Article, Imprimis (2006)"],
 ["Above all, women, Republican women believe in feminine modesty and Democratic women if they practice it, do not believe in it.", "Harvey C. Mansfield", "Talk at University of Chicago Law School, hosted by the Law School Republicans and the Federalist Society (2015)"],
@@ -89,7 +91,37 @@ var quotes = [
 ["Beside rock, even pornography looks elegant, but what a contrast with the popular songs of the thirties at their best, say, in Cole Porter: romantic, allusive, subtle, witty, and tuneful!", "Harvey C. Mansfield", "The Legacy of the Late Sixties (1997)"],
 ["Rock music glorifies sex to adolescent children who are not ready for it in any way except physically. The words of the songs say what the cavorting performers indicate, both with the crudeness necessary for maximum explicitness. The deafening loudness of the music signifies a demand for total absorption and the exclusion of adults and their authority.", "Harvey C. Mansfield", "The Legacy of the Late Sixties (1997)"],
 ["But there was a special contribution from the acolytes of the late sixties, which was to insist that the poor should not feel embarrassed about going on the dole. The work of debasing the morality of the poor was the special office of young lawyers and social workers who helped the poor overcome their inhibitions against signing up for benefits.", "Harvey C. Mansfield", "The Legacy of the Late Sixties (1997)"],
-["No one except relatives of the players watches female sports because the athletes are not as good as males. People do watch women in sports such as gymnastics, in which the activities reveal a particularly feminine grace as opposed to doing the same thing as men less well.", "Harvey C. Mansfield", "The Legacy of the Late Sixties (1997)"]
+["No one except relatives of the players watches female sports because the athletes are not as good as males. People do watch women in sports such as gymnastics, in which the activities reveal a particularly feminine grace as opposed to doing the same thing as men less well.", "Harvey C. Mansfield", "The Legacy of the Late Sixties (1997)"],
+["Thus it is wrong to accuse President Bush of acting illegally in the surveillance of possible enemies, as if that were a crime and legality is all that matters. This is simplistic, small-r republican thinking of the kind that our Constitution surpassed when it constructed a strong executive.", "Harvey C. Mansfield", "Op-Ed in the Weekly Standard (2006)"],
+["Much present-day thinking puts civil liberties and the rule of law to the fore and forgets to consider emergencies when liberties are dangerous and law does not apply.", "Harvey C. Mansfield", "Op-Ed in the Weekly Standard (2006)"],
+["We live in a society where racism is not, and cannot be, openly professed. To do so not only is frowned upon but will get you into serious trouble, if not yet jail, in America. Yet even though this is impossible to miss and known to all, 'systemic racism' supposedly persists.", "Harvey C. Mansfield", "Op-Ed in the Wall Street Journal (2020)"],
+["The notion of systemic racism is designed to make you feel guilty about this if you are white. But why should you? The system did it, not you. You can't change the system; that's what 'systemic' means.", "Harvey C. Mansfield", "Op-Ed in the Wall Street Journal (2020)"],
+["To prove that women can do everything men do, the most logical feminists find it necessary to practice their excesses, or at least boast of them—announcing with satisfaction that the murder rate by women is rising or discovering that rape is a gender-neutral crime that women too have the force and malice to commit.", "Harvey C. Mansfield", "Article published in Defining Ideas, a Hoover Institution journal (2014)"],
+["Since a woman can no longer count on the support of her husband - having dispensed with it - she needs to be able to call the police in case of trouble or a social agency in case of penury or a lawyer in case of discrimination.",  "Harvey C. Mansfield", "Article published in Defining Ideas, a Hoover Institution journal (2014)"],
+["The new-old essence of women is vulnerability. Their exciting new sense of risk must be made riskless, their sexual adventures free of misadventure, their newly-acquired manliness given the support of a wife.",  "Harvey C. Mansfield", "Article published in Defining Ideas, a Hoover Institution journal (2014)"],
+["The trouble with feminist imitation-manliness is that, unlike men, feminist women have no wives.",  "Harvey C. Mansfield", "Article published in Defining Ideas, a Hoover Institution journal (2014)"],
+["Lesbianism is one solution for the problem of gaining support without losing independence, but an imperfect one - particularly now that it lacks the thrill of outlaw behavior.",  "Harvey C. Mansfield", "Article published in Defining Ideas, a Hoover Institution journal (2014)"],
+["Being equal to men, the young woman has like them the right to free sex in a friendly environment (which among other things means one that does not frown on extra-marital sex), and being unequal to men, she needs protection unlike them so that she can say no at any stage.",  "Harvey C. Mansfield", "Article published in Defining Ideas, a Hoover Institution journal (2014)"],
+["But in the universities a woman has the right to initiate an encounter as a man might do but then suddenly to call a halt at any point, as a man is unlikely to do. She can also regret the matter at the instant or later, and demand intervention of authority on her behalf, also unlikely in a man. In such cases she can report the man involved and accuse him of misconduct without fearing that he could or would accuse her of trifling with or frustrating his desire.",  "Harvey C. Mansfield", "Article published in Defining Ideas, a Hoover Institution journal (2014)"],
+["The OCR wants to give women the normal right of a man to pursue sex—that makes them equal to men—but also keep for them the normal right of a woman to say no to pleasure when a man would think, why not?",  "Harvey C. Mansfield", "Article published in Defining Ideas, a Hoover Institution journal (2014)"],
+["Most women do not wish to give out sex for free, though some do. The latter, one suspects, are for the most part feminists, who feel impelled to take the initiative away from men as the expression of their equality with men.",  "Harvey C. Mansfield", "Article published in Defining Ideas, a Hoover Institution journal (2014)"],
+["Most college women are still nice girls almost all the time.",  "Harvey C. Mansfield", "Article published in Defining Ideas, a Hoover Institution journal (2014)"],
+["[Women] want the right to be wayward but not the expectation that sex is the normal end of an evening out.",  "Harvey C. Mansfield", "Article published in Defining Ideas, a Hoover Institution journal (2014)"],
+["That is why these regulations do not merely control sexual misconduct but also actually look forward to its abolition, as if that were possible and attainable as well as desirable.",  "Harvey C. Mansfield", "Article published in Defining Ideas, a Hoover Institution journal (2014)"],
+["On top of this, colleges must deal respectably with newly clamorous same-sexers who are not satisfied with the opposite sex and insist on devising new identities for themselves and others.",  "Harvey C. Mansfield", "Article published in Defining Ideas, a Hoover Institution journal (2014)"],
+["Feminists are not wrong to think that rape is a danger and a terrible harm. But they increase the risk of rape by encouraging women to prove themselves equal by rushing into casual sex with men they do not know.",  "Harvey C. Mansfield", "Article published in Defining Ideas, a Hoover Institution journal (2014)"],
+["If only there were a better feminism with a touch of romance, a measure of allure, something to dance to.",  "Harvey C. Mansfield", "Article published in Defining Ideas, a Hoover Institution journal (2014)"],
+["Just as Gender Studies taints the whole university with its sexless fantasies, so economists infect their neighbors with the imitation science they peddle.",  "Harvey C. Mansfield", "Article published in Defining Ideas, a Hoover Institution journal (2011)"],
+["[Feminists] bought into the sexual revolution and decided that women could best show they are equal to men by becoming as predatory as the most wolfish men. This demonstration required the fallback assistance of ready abortion in case something should go wrong; and it gave new legitimacy to - this word is never used - spinsterhood. ",  "Harvey C. Mansfield", "Op-Ed in Forbes (2008)"],
+["If you loved a man, you might actually want to put up with, or even admire, his ways. You may be sure that I am not the first one to notice that feminist women are unerotic.", "Harvey C. Mansfield", "Op-Ed in Forbes (2008)"],
+["Sarah Palin was appealing and accomplished, with the force of a man and the grace of a woman.", "Harvey C. Mansfield", "Op-Ed in Forbes (2008)"],
+["[Sarah Palin] introduced her children, especially little Trig, the one with Down's syndrome. She was displaying a mother's unconditional love, as opposed to the conditional love that insists on a 'wanted' child.", "Harvey C. Mansfield", "Op-Ed in Forbes (2008)"],
+["In love, a professor cuts a more acceptable figure, as the legion of former students, now faculty wives, must testify; for his characteristic didactic manner is closer to wheedling than to scolding.", "Harvey C. Mansfield", "Book Review published in Polity (1972)"],
+["In the age of sexual liberation, every woman not protected by poverty and extreme old age needs the courage to defend her virtue.", "Harvey C. Mansfield", "Is Courage a Masculine Virtue? (2009)"],
+["There have been a few female suicide bombers among the Islamic terrorists, young and either deluded or conscripted, but it's safe to suppose that if women were the leaders of Islamic radicalism they would go in for raising consciousness rather than terrorism.", "Harvey C. Mansfield", "Is Courage a Masculine Virtue? (2009)"],
+["Men have been utterly unwilling and unable to defend the oppressive privileges feminism denounced, thus justifying their elimination. Males have shown themselves to be a corrupt aristocracy, nothing more than a bunch of wimps, who surrender without a protest, much less a fight.", "Harvey C. Mansfield", "Book Review published in Policy Review (1987)"],
+["The feminists' first complaint against men was that they were Male Chauvinist Pigs. This did not mean that they were messy creatures, but that they were greedy pigsr hogging all the good things in life for themselves. In other words, it's  better to be a man.", "Harvey C. Mansfield", "The Partial Eclipse of Manliness (1998)"],
+["The result of gender neutrality is to justify women in more extreme partisanship for their sex than they ever encountered in faltering male chauvinism. It is also to encourage them in the game of charmless, loveless sex that feminists offer in place of romance. The change we need is to rediscover our sexes and to make both of them more assertive of their differences, so that their attraction to each other becomes more interesting (and more fruitful) than under the grim domination of feminism.", "Harvey C. Mansfield", "Essay published in the Wall Street Journal (2014)"]
 	];
 
 
@@ -112,6 +144,8 @@ function getQuote() {
 	        color: colors[randomcolor]
 	    }, 500);
 	    $('.social-icons .fa-twitter').animate({ backgroundColor: colors[randomcolor] }, 500);
+		$('#newquote').animate({ color: colors[randomcolor] }, 500);
+		$('#faq').animate({ color: colors[randomcolor] }, 500);		
 		$('blockquote footer').animate({ color: colors[randomcolor] }, 500);	
 	    $('blockquote').animate({ borderLeftColor: colors[randomcolor] }, 500);
 	    $('#quotetext').animate({ opacity: 0 }, 500, function () {
