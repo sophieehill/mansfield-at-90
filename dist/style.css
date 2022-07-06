@@ -8,44 +8,49 @@ h6,
 p { font-family: 'Merriweather', serif;
 }
 
-h1{font-size:35px;}
-h2{font-size:30px;}
-h3{font-size:25px;}
-p {font-size:16px;}
+.container {
+	max-height:800px;
+	margin: 15% auto auto auto;
+}
 
-a {
-	color: white;
-	text-decoration: underline;
+img {
+	margin: auto;
+	display: block;
+	max-width: 250px;
 }
 
 .mytitle {
-	font-size: 42px;
-	font-size: 6.5vw;
+	font-size: 74px;
 	color: white;
 	font-family: 'Charm', cursive;
 	font-weight: 700;
 }
 
 .mysubtitle {
-	font-size: 14px;
-	font-size: 1.8vw;
+	font-size: 30px;
 	color: white;
-	font-family: 'Merriweather', serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 400;
-	margin: 20px 0px;
+	margin: 50px auto 50px auto;
 }
+
+
+a {
+	color: white;
+	text-decoration: underline;
+}
+
 
 p.mymodaltext {
 	color: black;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .modal-title {
 	color: black;
-	font-size: 20px;
+	font-size: 22px;
 }
 
-body {background:#490A3D;}
 .quotemark {
     position: relative;
     top: -12px;
@@ -57,32 +62,24 @@ blockquote {
   margin: 30px 20px;
   padding: 10px 30px;
 }
+
 blockquote:before {
   color: #ccc;
   line-height: 0.1em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
+
 blockquote h1, h2, h3, p{
   display: inline;
 }
+
 blockquote footer {
-	font-size:22px;
+	font-size:18px;
 	text-align:right;
 	color:transparent;
 }
 
-
-img {
-	margin: auto;
-	display: block;
-	max-width: 250px;
-}
-
-.container {
-	max-height:800px;
-	margin: 40px auto auto auto;
-}
 .quotebox {
 	background:#fff;
 	min-height:100px;
@@ -97,50 +94,26 @@ img {
 	margin-left: 40px;
 }
 
-#quoteauthor{
+#quoteauthor {
 	margin-top:10px;
 }
 
-#quotesource{
+#quotesource {
 	margin-top:10px;
 	margin-bottom:0px;
 	text-align:right;
 	font-size: 18px;
 }
 
+.modal-dialog {
+	margin: 15% auto;
+	max-width: 80%;
+}
 
-.btn {margin-bottom:10px}
-
-.social-icons {
-	padding:6px 12px;
-	display:inline-block;
-	
+.btn {
+	margin-bottom:10px;
+	font-size: 22px;
 }
-.social-icons .fa {
-	font-size: 1.8em;
-	width: 40px;
-	height: 40px;
-	line-height: 40px;
-	text-align: center;
-	color: #FFF;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-}
-.social-icons.icon-rounded .fa{
-	border-radius:5px;
-}
-.social-icons .fa:hover, .social-icons .fa:active {
-	color: #FFF;
-	-webkit-box-shadow: 1px 1px 3px #333;
-	-moz-box-shadow: 1px 1px 3px #333;
-	box-shadow: 1px 1px 3px #333; 
-}
-.social-icons .fa-twitter {
-	background-color:#490A3D; 
-	border-color:none;} 
 
 .btn-primary,
 .btn-primary:hover,
@@ -154,15 +127,16 @@ img {
 }
 
 
-.btn {
-	font-size: 18px;
+#quotetext{
+	font-size: 34px;
 }
 
-@media only screen and (max-width: 768px){  
-    #quotetext {font-size:25px; }
-	.container {	margin-right:20px;}
-    }
-@media only screen and (max-width: 320px){  
-    #quotetext {font-size:18px; }
+@media screen and (min-width: 992px){ 
+	.mysubtitle{ 
+		font-size: 22px; 
+		margin: 20px auto 20px auto;
+	}
+    #quotetext {font-size:24px; }
+	.container {margin: 30px auto auto auto;}
+}
 
-    }
